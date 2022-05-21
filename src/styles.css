@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.hiding-nav .menubar {
+		@apply translate-x-[0%];
+	}
+
+	.menubar li span:last-child {
+		@apply py-2 tracking-[2.7px] uppercase  cursor-pointer font-Barlow;
+	}
+	li {
+		@apply list-none;
+	}
+	.Menu {
+		@apply hover:border-opacity-50  transition-all duration-[0.25s] hover:border-secondaryColor active:border-white  border-b-2 border-transparent  tablet:flex tablet:items-center md:flex md:items-center lg:items-center lg:flex lg:gap-2;
+	}
+	.page-no {
+		@apply tablet:hidden md:hidden lg:block font-Barlow tracking-[2.7px] font-bold;
+	}
+
+	.destination-pages li {
+		@apply py-2 border-b-2 transition-all duration-[0.25s] text-[16px] font-Barlow text-primaryColor lg:tracking-[2.7px] border-transparent cursor-pointer hover:border-b-2 hover:border-white;
+	}
+
+	.crew-tabs-btn {
+		@apply w-3	h-3	rounded-[50%] transition-all duration-[0.25s]	bg-gray-400	hover:bg-white  lg:w-5  lg:h-5;
+	}
+
+	.active-tab .technology-tabs {
+		@apply text-black bg-secondaryColor;
+	}
+
+	.technology-tabs {
+		@apply w-12 h-12  rounded-[50%] border-white border-opacity-50 border-[1px] hover:bg-neutralColor hover:text-secondaryColor transition-all duration-[0.25s] hover:border-opacity-100 lg:w-16 lg:h-16;
+	}
+
+	#destinationsPage {
+		@apply bg-[url('assets/destination/background-destination-mobile.jpg')] tablet:bg-[url('assets/destination/background-destination-tablet.jpg')] md:bg-[url('assets/destination/background-destination-tablet.jpg')] lg:bg-[url('assets/destination/background-destination-desktop.jpg')];
+	}
+
+	#homePage {
+		@apply bg-[url('assets/home/background-home-mobile.jpg')] tablet:bg-[url('assets/home/background-home-tablet.jpg')] md:bg-[url('assets/home/background-home-tablet.jpg')] lg:bg-[url('assets/home/background-home-desktop.jpg')];
+	}
+
+	#crewPage {
+		@apply bg-[url('assets/crew/background-crew-mobile.jpg')] tablet:bg-[url('assets/crew/background-crew-tablet.jpg')] md:bg-[url('assets/crew/background-crew-tablet.jpg')] lg:bg-[url('assets/crew/background-crew-desktop.jpg')];
+	}
+
+	#technologyPage {
+		@apply bg-[url('assets/technology/background-technology-mobile.jpg')] tablet:bg-[url('assets/technology/background-technology-tablet.jpg')] md:bg-[url('assets/technology/background-technology-tablet.jpg')] lg:bg-[url('assets/technology/background-technology-desktop.jpg')];
+	}
+}
