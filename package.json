@@ -1,16 +1,16 @@
 {
-  "name": "tailwind2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
-  "dependencies": {
-    "tailwindcss": "^3.0.23"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "build": "tailwindcss -i src/styles.css -o doc/output.css -w"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "tailwind2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "tailwind.config.js",
+	"dependencies": {
+		"tailwindcss": "^3.0.23"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"build": "tailwindcss -i src/styles.css -o docs/output.css -w"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }
