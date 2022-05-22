@@ -22,7 +22,7 @@ const destinationPageHtmlContent = `
 						<span class="opacity-50 text-secondaryColor">01</span>
 						<a class="ml-2 text-secondaryColor tracking-[2.75px]" href="#">PICK YOUR DESTINATION</a>
 					</li>
-					<div class="w-[60%] h-[220px] tablet:h-[250px] mt-4 lg:mt-16 mx-auto">
+					<div class="w-[60%] h-[220px] tablet:h-[250px] mdHeight:h-[280px] lgHeight:h-[310px] mt-4 lg:mt-16 mx-auto">
 						<img class="max-w-[100%] max-h-[100%] mx-auto current-tab-img" src="assets/destination/image-moon.png" alt="" />
 					</div>
 				</article>
@@ -51,14 +51,14 @@ const destinationPageHtmlContent = `
 			</main>
 `;
 const crewPageHtmlContent = `
-<main class="lg:flex lg:flex-col lg:flex-grow">
+<main class="lg:flex lg:flex-col lg:flex-grow mdHeight:mt-[9%] lgHeight:mt-[12%]">
 				<li class="mt-6 py-1 text-center tablet:text-left tablet:ml-[10%] md:ml-[10%] md:text-left text-[28px] lg:mt-8 font-Barlow">
 					<span class="opacity-50 text-secondaryColor">02</span>
 					<a class="ml-2 text-secondaryColor tracking-[2.75px]" href="#"> MEET YOUR CREW </a>
 				</li>
 
 				<div class="lg:w-[80%] lg:flex items-start lg:justify-self-end lg:flex-grow lg:flex-row-reverse lg:mx-auto">
-					<div class="mt-8 mx-auto w-[80%] h-[250px] tablet:h-[300px] border-opacity-50 border-b-2 border-white lg:border-transparent lg:w-[70%] lg:h-[420px] lg:mt-0 lg:self-end">
+					<div class="mt-8 mx-auto w-[80%] h-[250px] tablet:h-[300px] border-opacity-50 border-b-2 border-white lg:border-transparent lg:w-[70%] lg:h-[420px] mdHeight:h-[460px] lgHeight:h-[500px] lg:mt-0 lg:self-end">
 						<img class="max-w-[100%] h-[100%] mx-auto object-cover crew-img" src="assets/crew/image-victor-glover.png" alt="" />
 					</div>
 
@@ -85,7 +85,7 @@ const crewPageHtmlContent = `
   
 `;
 const technologyPageHtmlContent = `
- <main>
+ <main class="mdHeight:mt-[5%] lgHeight:mt-[10%]">
       <li class="mt-6 py-1 lg:text-left lg:ml-[10%]  text-center text-[28px] font-Barlow ">
         <span class="opacity-50 text-secondaryColor">03</span> <a class=" ml-2 text-secondaryColor  tracking-[2.75px]" href="#">SPACE LAUNCH 101</a>
       </li>
@@ -97,7 +97,7 @@ const technologyPageHtmlContent = `
         />
    </div>
    
-<article class="lg:flex-[60%] lg:flex lg:gap-[10%] lg:pt-20 lg:items-start">  
+<article class="lg:flex-[60%] lg:flex lg:gap-[10%] lg:pt-20 lg:items-start ">  
       <div class="flex justify-center gap-8 tabs-container lg:flex-col lg:justify-end">
         <button class="technology-tabs" data-id="1">1</button>
         <button class="technology-tabs" data-id="2">2</button>

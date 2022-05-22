@@ -14,6 +14,8 @@ module.exports = {
 			screens: {
 				laptop: "1300px",
 				tablet: { min: "550px", max: "767px" },
+				mdHeight: { raw: "(min-height:700px)" },
+				lgHeight: { raw: "(min-height:850px)" },
 			},
 		},
 		plugins: [],
